@@ -1,0 +1,134 @@
+html {
+	height: 100%;
+	font-family: sans-serif;
+}
+
+body {
+	background-image: url(RFSRutgersHomecomingGameMeritTrip.jpg), linear-gradient(#66ffff, #00a3cc);
+	background-size: 100% 400px, 100% 100%;
+	background-repeat: no-repeat, no-repeat;
+}
+
+
+h1 {
+	 
+	text-align: center;
+	color: white;
+}
+
+#header {
+	margin-left: 45%;
+	margin-right: 50%;
+ }
+
+#navbar { 
+ 	background-color: red; 
+}
+
+#sidebar {
+	position: fixed;
+	margin-top: 20px; 
+}
+
+#nb {
+	display: inline;
+	list-style-type: none;
+	position: fixed;
+	margin: -10px;
+	margin-left: -125px;
+}
+
+#sb {
+	margin-left: -30px;
+	margin-top: -15px;
+}
+
+#circlePic {
+	height: 200px;
+	width: 200px;
+	border: 10px solid white;
+	border-radius: 100%;
+	margin-left: 40%;
+	margin-right: 50%;
+	margin-top: 40px;
+	display: inline-block;
+	background-color: white;
+}
+
+#rivenMain {
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+
+#rivenbg {
+	width: auto;
+	display: inline;
+	height: 230px;
+
+}
+
+#well {
+	height: 300px;
+	width: 600px;
+	margin-top: 75px;
+	margin-left: 40%;
+	margin-right: 50%;
+	color: white;
+}
+
+p:first-child {
+
+	font-size: 30px;
+	color: white;
+}
+
+.navilinks {
+	display: inline;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	padding: 5px;
+	border-radius: 5px 5px;
+	background-color: #cc0323
+	margin-left: -1500px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+li {
+	/*display: inline;*/
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	padding: 5px;
+	border-radius: 5px 5px;
+	background-color: #cc0323 
+ }
+
+h4 {
+	color: white;
+}
+
+h6 {
+	font-family: Arial;
+}
+
+a:link {
+	text-decoration: none;
+	 color: #ffffff;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+img {
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+}
