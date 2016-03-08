@@ -4,7 +4,7 @@ html, body {
 	width: 100%;
 	height: 100%;
     background-image:  url(http://i.imgur.com/zcjT9S5.jpg), linear-gradient(#66ffff, #00a3cc);
-    background-size: 100% 550px, 100% 100%;
+    background-size: 100% 400px, 100% 100%;
     background-repeat: no-repeat, no-repeat;
     color: white;
     font-family: 'Lato', Helvetica, sans-serif;
@@ -33,7 +33,6 @@ h1 {
 	flex-flow: row;
 	justify-content: center;
 	align-items: center;
-    margin-top: -50px
 }
 
 #navbar ul {
@@ -52,9 +51,11 @@ h1 {
 #main-top-half {
 	display: flex;
 	flex-flow: row;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
-	height: 45%;
+	height: 1%;
+    width: auto;
+    max-height: 300px;
 }
 
 #sidebar {
@@ -65,44 +66,35 @@ h1 {
 #sidebar li {
 	margin: 10px;
     list-style: none;
+    justify-content: flex-start;
 }
 
 #sb {
-    margin-left: -20px;
-    margin-top: -10px;
+    justify-content: flex-end;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
-#circlePic {
-    display: flex;
-    flex-flow: row;
-    flex-grow: 1;
-    justify-content: center;
-}
-#circlePic img {
-    width: 300px;
-    height: 300px;
-    border-radius: 1000px;
-    border: 5px solid white;
-}
-
-#ad {
-    height: 300px;
-    width: 150px;
-    margin-right: 45px;
+#intrest {
+    font-size: 150px;
+    
 }
 
 #well {
     display: flex;
     flex-flow: column;
     padding: 10px;
+    align-content: center;
     margin-top: 20px;
+    height: 200px;
+    width: 90%;
 }
 
-#well-title {
-    font-size: 25px;
-}
 
 #well-text {
+    
+    margin-left: auto;
+    margin-right: auto;
     font-size: 15px;
 }
 
