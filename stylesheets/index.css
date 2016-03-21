@@ -8,6 +8,7 @@ html, body {
     background-repeat: no-repeat, no-repeat;
     color: white;
     font-family: 'Lato', Helvetica, sans-serif;
+    z-index: 0;
 }
 
 body {
@@ -21,6 +22,10 @@ body {
     justify-content: center;
     align-items: center;
     list-style: none;
+}
+
+#ad {
+    z-index: 1;
 }
 
 h1 {
@@ -56,6 +61,7 @@ h1 {
 	align-items: center;
 	height: 45%;
 }
+
 
 #sidebar {
 	display: flex;
