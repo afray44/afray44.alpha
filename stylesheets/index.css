@@ -25,12 +25,12 @@ body {
 }
 
 #ad {
-    z-index: 1;
+    width: 90px;
+    height: 640px;
 }
 
 h1 {
     color: black;
-    font-size: ;
 }
 
 #navbar {
